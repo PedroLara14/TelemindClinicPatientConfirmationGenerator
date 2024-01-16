@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Confirmación de Citas</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Generador de Confirmaciones de Citas</h2>
+
+    <form id="confirmationForm">
+        <label for="patientName">Patient Name:</label>
+        <input type="text" id="patientName" required>
+
+        <label for="day">Day:</label>
+        <select id="day" required></select>
+
+        <label for="month">Month:</label>
+        <select id="month" required></select>
+
+        <label for="time">Time:</label>
+        <select id="time" required></select>
+
+        <label for="timeZone">Time Zone:</label>
+        <select id="timeZone" required>
+            <option value="Pacific Time">Pacific Time</option>
+            <option value="Mountain Time">Mountain Time</option>
+            <option value="Central Time">Central Time</option>
+            <option value="Eastern Time">Eastern Time</option>
+        </select>
+
+        <label for="price">Price:</label>
+        <input type="text" id="price" pattern="\$\d+(\.\d{2})?" title="Enter a valid price (e.g., $99.99)" required>
+
+        <label for="last4CardNumbers">Last 4 Card Numbers:</label>
+        <input type="text" id="last4CardNumbers" pattern="\d{4}(,\s?\d{4})*" title="Enter valid last 4 card numbers" required>
+
+        <button type="button" onclick="generateConfirmation()">Generate Confirmation</button>
+        <!-- Añadir este botón al lado de Generate Confirmation -->
+<button type="button" onclick="copyToClipboard()">Copy</button>
+<!-- Añadir este botón al lado de Generate Confirmation y Copy to Clipboard -->
+<button type="button" onclick="clearConfirmation()">Clear</button>
+
+
+    </form>
+
+    <hr>
+
+    <h3>Generated Confirmation:</h3>
+    <pre id="generatedConfirmation"></pre>
+
+    <script src="Script.js"></script>
+
+</body>
+</html>

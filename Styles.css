@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: none;
+}
+
+h3 {
+    display: none;
+}
+
+#form-container {
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+form {
+    max-width: 400px; /* Ajusta el ancho del formulario según tus preferencias */
+    width: 100%;
+    margin: auto; /* Centra el formulario horizontalmente */
+}
+
+
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+input,
+select {
+    width: calc(100% - 22px); /* Ajustar según sea necesario */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+#generatedConfirmation {
+    max-width: 600px; /* Ajusta el ancho del contenedor del mensaje según tus preferencias */
+    width: 100%;
+    margin: auto; /* Centra el contenedor horizontalmente */
+    white-space: pre-wrap; /* Permite el ajuste de línea en el texto */
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial y otras fuentes sans-serif como respaldo */
+    font-size: 20px; /* Ajusta el tamaño de la fuente según tus preferencias */
+    font-weight: bold; /* Hace el texto en negrita */
+}
