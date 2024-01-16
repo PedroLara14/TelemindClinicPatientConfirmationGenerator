@@ -91,7 +91,7 @@ We would like to let you know that due to the late reschedule policy, we need yo
 
 We see that your appointment will have a cost of ${price}.
 
-If you have any questions, please contact us at 725-333-2411.
+If you need to update any of your profile such as pharmacy, payment method or insurance information, or have any questions, please call us at 725-333-2411.
 
 Have a great day, take care.
 `;
