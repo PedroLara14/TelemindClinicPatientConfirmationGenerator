@@ -82,6 +82,8 @@ function generateConfirmation() {
 
     // Construir el mensaje de confirmación sin comillas dobles
     const confirmationMessage = `
+Hi, This is Telemind Clinic.
+
 Dear ${patientName},
 
 This message is to remind you that you have an appointment scheduled for the ${day} of ${month} at ${time} ${timeZone}.
