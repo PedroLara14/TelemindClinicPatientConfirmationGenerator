@@ -26,6 +26,10 @@ h3 {
     margin-top: 50px;
 }
 
+.Card4numbers {
+    display: none;
+}
+
 form {
     max-width: 400px; /* Ajusta el ancho del formulario según tus preferencias */
     width: 100%;

@@ -40,8 +40,8 @@
         <label for="price">Price:</label>
         <input type="text" id="price" pattern="\$\d+(\.\d{2})?" title="Enter a valid price (e.g., $99.99)" required>
 
-        <label for="last4CardNumbers">Last 4 Card Numbers:</label>
-        <input type="text" id="last4CardNumbers" pattern="\d{4}(,\s?\d{4})*" title="Enter valid last 4 card numbers" required>
+        <label class="Card4numbers" for="last4CardNumbers">Last 4 Card Numbers:</label>
+        <input class="Card4numbers" type="text" id="last4CardNumbers" pattern="\d{4}(,\s?\d{4})*" title="Enter valid last 4 card numbers" required>
 
         <button type="button" onclick="generateConfirmation()">Generate Confirmation</button>
         <!-- Añadir este botón al lado de Generate Confirmation -->

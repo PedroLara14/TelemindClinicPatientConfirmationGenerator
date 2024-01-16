@@ -91,8 +91,6 @@ We would like to let you know that due to the late reschedule policy, we need yo
 
 We see that your appointment will have a cost of ${price}.
 
-In your payment profile, we see that you have a card(s) ending in ${last4CardNumbers}. If you will be using a different card, please contact us as soon as possible to add it to your file or you can add it through this link https://telemind.com/payment-method.
-
 If you have any questions, please contact us at 725-333-2411.
 
 Have a great day, take care.
